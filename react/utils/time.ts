@@ -38,7 +38,7 @@ export const tick = (
   const ONE_SECOND_IN_MILLIS = 1000
   const finalDate = new Date(targetDate)
   const now = new Date()
-
+  
   const secondsLeft =
     (finalDate.getTime() - now.getTime()) / ONE_SECOND_IN_MILLIS
 
